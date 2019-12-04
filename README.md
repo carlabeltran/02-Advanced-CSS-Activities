@@ -1,3 +1,6 @@
+## 02: Advanced CSS
+# Activities for Flex Session
+
 ## 1-Headers
 * CSS Flexbox
 * CSS Variables
