@@ -79,6 +79,10 @@ body {
   box-shadow: 0 0 5px 2px rgba(0,0,0,0.3) inset;
 }
 
+input:focus {
+  background-color: thistle;
+}
+
 /* media query for smaller screens to reorient flex forms */
 @media only screen and (max-width: 768px) {
   .inline-form-element {

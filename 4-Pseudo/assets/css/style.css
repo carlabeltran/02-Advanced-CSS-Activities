@@ -27,7 +27,7 @@ ul {
 
 li {
   list-style: none;
-
+  width: 135px;
 }
 
 li:hover {

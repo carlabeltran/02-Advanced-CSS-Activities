@@ -21,7 +21,7 @@
 * Pseudo Classes
 
 ### 5-Layout
-* Grid Area
+* Grid
 * Media Queries
 * CSS Variables
 * Google Fonts
