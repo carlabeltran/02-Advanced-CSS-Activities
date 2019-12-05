@@ -26,3 +26,4 @@
 * CSS Variables
 * Google Fonts
 * Pseudo Elements
+* Grid Area Supplemental
