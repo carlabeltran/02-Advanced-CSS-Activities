@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600');
+/* set some css variables to reuse colors */
+
+:root {
+  --aquamarine: aquamarine;
+  --black: #272727;
+}
+
+html {
+  /* border-box box model allows us to add padding and border to our elements without increasing their size */
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(122, 59, 59, 0.07);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 10fr 1fr;
+  grid-template-rows: 150px 150px 100px;
+  grid-template-areas: 
+  "sidebar-1 content sidebar-2" 
+  "sidebar-1 content ." 
+  "footer footer footer"
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 2.2rem;
+  background-color: var(--aquamarine);
+}
+
+
+.footer {
+  grid-area: footer;
+}
+
+
+.item1 {
+  grid-area: sidebar-1;
+  writing-mode: vertical-lr;
+}
+
+.item2 {
+  grid-area: content;
+}
+
+.item3 {
+  grid-area: sidebar-2;
+}
+
+@media (max-width: 700px) {
+  .grid-container {
+    grid-template-areas: 
+    "content content content" 
+    "sidebar-1 sidebar-1 sidebar-2" 
+    "footer footer footer"
+  }
+
+  .item1 {
+    writing-mode: unset;
+  }
+}
