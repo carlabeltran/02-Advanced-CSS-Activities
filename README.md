@@ -2,16 +2,16 @@
 ## Activities for Flex Session
 
 ### 1-Headers
-* Flexbox
+* CSS Flexbox
 * CSS Variables
 * Pseudo Elements
 
 ### 2-Cards
-* Flexbox
+* CSS Flexbox
 * Media Queries
 
 ### 3-Forms
-* Flexbox
+* CSS Flexbox
 * Media Queries
 * Google Fonts
 * Pseudo Class: focus
@@ -21,9 +21,9 @@
 * Pseudo Classes
 
 ### 5-Layout
-* Grid
+* CSS Grid
 * Media Queries
 * CSS Variables
 * Google Fonts
 * Pseudo Elements
-* Grid Area Supplemental
+* Supplemental: Grid Area 
